@@ -7,7 +7,8 @@ class Tre < Formula
   depends_on :xcode => ["10.1", :build]
 
   def install
-    system "make", "install", "prefix=#{prefix}"
+    system "make", "build"
+    bin.install ".build/release/tre"
   end
 
   test do
