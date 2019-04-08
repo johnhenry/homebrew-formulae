@@ -1,10 +1,10 @@
 class Tre < Formula
   desc "Git-friently replacement for the tree command."
   homepage "https://github.com/dduan/tre"
-  url "https://github.com/dduan/tre/archive/0.0.3.tar.gz"
-  sha256 "23bfda8b10a0c7e638485225e5934c0ee4bed87896236c1df570d26c4274d4cc"
-  version "0.0.3"
-  depends_on :xcode => ["10.1", :build]
+  url "https://github.com/dduan/tre/archive/0.1.0.tar.gz"
+  sha256 "c316d6c47aab5995d6a047ef3af23af24a2d252757ae6567577a3212c52adbe4"
+  version "0.1.0"
+  depends_on :xcode => ["10.2", :build]
 
   def install
     system "make", "build"
