@@ -1,14 +1,14 @@
 class Mmm < Formula
-  version '0.1.2'
+  version '0.1.3'
   desc "Your little interactive file manipulator"
   homepage "https://github.com/dduan/mmm"
 
   if OS.mac?
       url "https://github.com/dduan/mmm/releases/download/v#{version}/mmm-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "3b29aa98635c813062b526308cc6ee02e7d090cc6b3458ab70b6d3c90956bc76"
+      sha256 "b2270d405828fa764c9cadd9006e38d586c81edce301d6560d5caa0a30325b83"
   elsif OS.linux?
       url "https://github.com/dduan/mmm/releases/download/v#{version}/mmm-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "b031ee757794f8dd69cb3d29ecde72e0570b1db330fd54bef001b0fcee56994c"
+      sha256 "6113fb0f99eadfde444300bb122a64898d0c05198020e7306cd586a58b3b344e"
   end
 
   def install
