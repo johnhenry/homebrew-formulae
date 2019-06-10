@@ -1,14 +1,14 @@
 class Tre < Formula
-  version '0.2.0'
+  version '0.2.1'
   desc "Tree command, improved."
   homepage "https://github.com/dduan/tre"
 
   if OS.mac?
       url "https://github.com/dduan/tre/releases/download/v#{version}/tre-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "4ae0e7aeedb4d9d2ed2a32de796869d18273446af4cb7623fceeff22955e6ef7"
+      sha256 "e82d67a01922c38fcabb6972e1f33300894df85d737e8d9b1b1c0012ff213662"
   elsif OS.linux?
       url "https://github.com/dduan/tre/releases/download/v#{version}/tre-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f9da682ba5198f91ac174cff390afe3eda014486918610e88e13747f862c859e"
+      sha256 "4c5a903d3ae42f776b9b0dbf92ef6b40812ab2bc429c870e0ef2321d2af56055"
   end
 
   def install
