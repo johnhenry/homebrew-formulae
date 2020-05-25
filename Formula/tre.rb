@@ -4,7 +4,7 @@ class Tre < Formula
   homepage "https://github.com/dduan/tre"
 
   if OS.mac?
-      url "https://github.com/dduan/tre/releases/download/v#{version}/tre-v#{version}-x86_64-apple-darwin.tar.gz"
+      url "https://github.com/dduan/tre/releases/download/#{version}/tre-v#{version}-x86_64-apple-darwin.tar.gz"
       sha256 "0e15f7aeb3385c4bd6bfc63bbc9a964dc93a8e2e3b66ef5d950ca70c1831d1e0"
   elsif OS.linux?
       url "https://github.com/dduan/tre/releases/download/v#{version}/tre-v#{version}-x86_64-unknown-linux-musl.tar.gz"
